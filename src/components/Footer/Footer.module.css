@@ -1,0 +1,25 @@
+.video {
+  padding: 2%;
+  margin-top: -5%;
+  border-radius: 8px;
+}
+.number {
+  display: flex;
+  align-items: baseline;
+}
+.footer {
+  background-color: rgb(241, 234, 234);
+  align-items: baseline;
+  display: flex;
+  margin-top: 4%;
+}
+.about {
+  justify-content: flex-start;
+  color: #00bf71;
+  font-weight: 600;
+  margin: 5%;
+}
+.more {
+  color: #00bf71;
+  text-decoration: none;
+}

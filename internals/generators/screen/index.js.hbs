@@ -1,0 +1,6 @@
+import { lazyLoad } from 'utils/loadable';
+
+export const {{ properCase ScreenName }} = lazyLoad(
+() => import('./{{ properCase ScreenName }}'),
+(module) => module.{{ properCase ScreenName }},
+);

@@ -1,0 +1,23 @@
+.card {
+  background-color: #fff;
+  color: #00bf71;
+}
+.card:hover {
+  background-color: #00bf71;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  color: #fff;
+}
+.read {
+  font-weight: 600;
+  text-decoration: none;
+  color: #00bf71;
+}
+.read:hover {
+  border-radius: 2px;
+  border-color: solid #000;
+  color: #fff;
+}
+.typo {
+  font-weight: 600;
+}

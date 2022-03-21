@@ -1,0 +1,28 @@
+.menuline {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: 800;
+  margin-top: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+  cursor: pointer;
+}
+.topic {
+  min-height: 700px;
+  background-image: url('assets/images/business.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+.basic {
+  display: flex;
+  align-items: baseline;
+  margin-top: -5%;
+  margin: 5%;
+}

@@ -1,0 +1,22 @@
+import { memo } from 'react';
+{{#if wantHeaders}}
+import { Helmet } from 'react-helmet-async';
+{{/if}}
+import styles from './{{ properCase ScreenName }}.module.css';
+
+export const {{ properCase ScreenName }} = memo((props) => {
+
+
+return (
+<>
+  {{#if wantHeaders}}
+  <Helmet>
+    <title>{{properCase ScreenName}}</title>
+  </Helmet>
+  {{/if}}
+  <div>
+  </div>
+</>
+);
+
+});
