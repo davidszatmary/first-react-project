@@ -1,0 +1,14 @@
+.box {
+  background-color: #2b2a2a;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.title {
+  color: #ae1421;
+  font-weight: 700;
+}

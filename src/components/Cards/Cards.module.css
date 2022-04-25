@@ -1,0 +1,33 @@
+.card {
+  background-color: #2b2a2a;
+  color: #ae1421;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:hover {
+  background-color: #ae1421;
+  color: #fff;
+}
+
+.title {
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+.text {
+  max-width: 74%;
+  margin: 10px 0px 20px 0px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+}

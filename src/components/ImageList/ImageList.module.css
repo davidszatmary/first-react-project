@@ -1,0 +1,15 @@
+.ImageList {
+  display: flex;
+  color: #fff;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.button {
+  display: flex;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  border-style: hidden;
+  background-color: #000;
+  color: #ae1421;
+}

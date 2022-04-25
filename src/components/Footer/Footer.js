@@ -1,40 +1,26 @@
 import { memo } from 'react';
 import styles from './Footer.module.css';
-import ReactPlayer from 'react-player';
-import { Button } from '@material-ui/core';
+import { SocialIcon } from 'components/Social';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
-export const Footer = memo(() => {
+export const Footer = memo((props) => {
   return (
     <div className={styles.footer}>
-      <div className={styles.video}>
-        <ReactPlayer url="https://www.youtube.com/watch?v=KqFHB0yiV50" />
-        <div className={styles.number}>
-          <h3>
-            <FontAwesomeIcon color="#00bf71" size="1.5" icon={faThumbsUp} />
-            25
-          </h3>
-          <br />
-          Years of experience
-          <h3>
-            <FontAwesomeIcon color="#00bf71" icon={faPaperPlane} />
-            350
-          </h3>
-          <br />
-          Complemented Projects
-        </div>
+      <div className={styles.globe}>
+        <FontAwesomeIcon icon={faGlobe} color="#ae1421" size="2x" />
+      </div>
+      <div className={styles.links}>
+        {' '}
+        <SocialIcon href="https://www.facebook.com" icon="facebook" />
+        <SocialIcon href="https://twitter.com/" icon="twitter" />
+        <SocialIcon href="https://www.youtube.com/" icon="youtube" />
       </div>
       <div>
-        <p className={styles.about}>About Us</p>
-        <p>
-          <h2>Discover The World of Financial Planner</h2>
-          Far far away, behind the world mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts. Seperated they
-          live in Bookmarksgrove right at the coast of the Semantics Far far
-          away, behind the world mountains
-        </p>
-        <Button className={styles.more}>READ MORE</Button>
+        <div className={styles.create}>
+          <FontAwesomeIcon icon={faGlobe} color="#ae1421" />
+          <p>Created by Dávid</p>
+        </div>
       </div>
     </div>
   );

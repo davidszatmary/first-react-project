@@ -29,6 +29,7 @@
     "react-scripts": "^5.0.0",
     "sanitize.css": "^13.0.0",
     "shelljs": "^0.8.5",
+    "styled-components": "^5.3.5",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -37,12 +38,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate": "cross-env plop --plopfile internals/generators/plopfile.js"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [

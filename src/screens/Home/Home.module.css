@@ -1,28 +1,82 @@
-.menuline {
-  background-color: #fff;
-  color: #000;
+.home {
+  background-color: #000;
+}
+.picture {
+  padding: 50px;
+}
+.exp {
+  padding-left: 85px;
+  color: #fff;
+  font-weight: 900;
+}
+.hello {
+  color: #fff;
+  background-color: #000;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  font-weight: 800;
-  margin-top: 15px;
-  padding-left: 5%;
-  padding-right: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8%;
+  text-align: start;
+}
+.button {
+  padding: 15px;
+  border-style: hidden;
+  background-color: #ae1421;
+  color: #fff;
   cursor: pointer;
 }
-.topic {
-  min-height: 700px;
-  background-image: url('assets/images/business.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  display: flex;
-  align-items: center;
-  padding-left: 40px;
-}
-.basic {
+.ide {
+  padding-top: 50px;
   display: flex;
   align-items: baseline;
   margin-top: -5%;
   margin: 5%;
+}
+.centerCard {
+  margin: 0 20px;
+}
+.menu {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 700;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 30px;
+}
+.work {
+  color: #fff;
+  background-color: #2b2a2a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  padding: 30px;
+  margin: 10%;
+}
+.imageList {
+  color: #fff;
+  padding-left: 30px;
+}
+.project {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.box {
+  color: #ae1421;
+}
+.jesus {
+  padding-left: 40%;
+  padding-right: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.exp {
+  color: #fff;
 }
